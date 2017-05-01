@@ -17,8 +17,7 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-开启服务器后，显示的是后台登录界面 
-默认的用户名：张宇
-默认的密码：123
+## 默认的用户名：张宇
+## 默认的密码：123
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
