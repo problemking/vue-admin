@@ -20,4 +20,14 @@ npm run build --report
 ## 默认的用户名：张宇
 ## 默认的密码：123
 
+data() {
+      return {
+        pathName:this.$route.name
+      }
+  },
+watch: {
+    '$route': function(){
+      this.pathName = this.$route.name;
+ }
+获取路由的name属性
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
